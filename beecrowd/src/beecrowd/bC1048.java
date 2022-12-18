@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class bC1048 {
 
 	public static void main(String[] args) {
-		double salario, nSalario, percentage;
+		double salario;
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
@@ -16,49 +16,34 @@ public class bC1048 {
 		System.out.println();
 		if (salario > 0) {
 			if (salario <= 400) {
-				percentage = 15;
-				nSalario = (salario * percentage / 100) + salario;
-				System.out.printf("Novo salario: %.2f%n", nSalario);
-				System.out.printf("Reajuste de ganho: %.2f%n", salario * percentage / 100);
-				System.out.println("Em percentual: " + (int) percentage + "%");
+				imprimir(salario, 15);
 			}
 			if (salario > 400) {
 				if (salario <= 800) {
-					percentage = 12;
-					nSalario = (salario * percentage / 100) + salario;
-					System.out.printf("Novo salario: %.2f%n", nSalario);
-					System.out.printf("Reajuste de ganho: %.2f%n", salario * percentage / 100);
-					System.out.println("Em percentual: " + (int) percentage + "%");
+					imprimir(salario, 13);
 				}
 			}
 			if (salario > 800) {
 				if (salario <= 1200) {
-					percentage = 10;
-					nSalario = (salario * percentage / 100) + salario;
-					System.out.printf("Novo salario: %.2f%n", nSalario);
-					System.out.printf("Reajuste de ganho: %.2f%n", salario * percentage / 100);
-					System.out.println("Em percentual: " + (int) percentage + "%");
+					imprimir(salario, 10);
 				}
 			}
 			if (salario > 1200) {
 				if (salario <= 2000) {
-					percentage = 7;
-					nSalario = (salario * percentage / 100) + salario;
-					System.out.printf("Novo salario: %.2f%n", nSalario);
-					System.out.printf("Reajuste de ganho: %.2f%n", salario * percentage / 100);
-					System.out.println("Em percentual: " + (int) percentage + "%");
+					imprimir(salario, 7);
 				}
 			}
 			if (salario > 2000) {
-				percentage = 10;
-				nSalario = (salario * percentage / 100) + salario;
-				System.out.printf("Novo salario: %.2f%n", nSalario);
-				System.out.printf("Reajuste de ganho: %.2f%n", salario * percentage / 100);
-				System.out.println("Em percentual: " + (int) percentage + "%");
-
+				imprimir(salario, 4);
 			}
 		}
 	}
+
+	public static void imprimir(double salario, int percentage) {
+		double nSalario;
+		nSalario = (salario * percentage / 100) + salario;
+		System.out.printf("Novo salario: %.2f%n", nSalario);
+		System.out.printf("Reajuste de ganho: %.2f%n", salario * percentage / 100);
+		System.out.println("Em percentual: " + (int) percentage + "%");
+	} 
 }
-
-
