@@ -2,10 +2,6 @@
 
 ## Proposta:
 
-Esse é um repositório de dedicado ao estudo de **java** utilizando os exercícios da **beecrowd**. 
-## BEECROWD:
- Somos uma plataforma digital de serviços profissionais impulsionada pela comunidade
-
-Empoderamos estudantes e profissionais de tecnologia e os conectamos às corporações mais inovadoras do mundo por meio de uma plataforma única, global e fácil de usar para que Soluções de Disponibilização de Talentos possam ser entregues
+Nesse repositório estam contidos programas retirados do site **Beecrowd**. Aqui você encontra de programas simples até os mais elaborados. No mais, esse é um projeto que está em funcionamento, isto é, sempre que possível adiciono novos programas. 
 ## Lista:
 A lista de exercícios foi pode ser acessada através do enlace **[clique aqui](https://www.beecrowd.com.br/judge/pt/problems/index/1)**.
