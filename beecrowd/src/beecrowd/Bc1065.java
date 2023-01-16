@@ -21,5 +21,4 @@ public class Bc1065 {
 		sc.close();
 		System.out.println(cont + " valores pares");
 	}
-
 }
