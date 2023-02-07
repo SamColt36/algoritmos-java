@@ -5,18 +5,18 @@ import java.util.Scanner;
 public class Bc1008 {
 
 	public static void main(String[] args) {
-		String n;
-		int h;
-		double rph, s;
+		int hora, numero;
+		double rendaPorHora, salario;
 		Scanner sc = new Scanner(System.in);
-		n = sc.next();
-		h = sc.nextInt();
-		rph = sc.nextDouble();
+		numero = sc.nextInt();
+		hora = sc.nextInt();
+		rendaPorHora = sc.nextDouble();
 		sc.close();
-		s = h * rph;
+		
+		salario = hora * rendaPorHora;
 		Locale.setDefault(Locale.US);
-		System.out.println("NUMBER = " + n);
-		System.out.printf("SALARY = U$ %.2f%n", s);
+		System.out.println("NUMBER = " + numero);
+		System.out.printf("SALARY = U$ %.2f%n", salario);
 	}
 
 }

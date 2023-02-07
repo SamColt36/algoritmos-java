@@ -11,11 +11,12 @@ public class Bc1013 {
 		b = sc.nextInt();
 		c = sc.nextInt();
 		sc.close();
-		if (a > b ) {
-			z = (a + c + Math.abs(a-c))/2;
+		
+		if (a > b) {
+			z = (a + c + Math.abs(a - c)) / 2;
 			System.out.println(z + " eh o maior");
 		} else {
-			z = (b + c + Math.abs(b-c))/2;
+			z = (b + c + Math.abs(b - c)) / 2;
 			System.out.println(z + " eh o maior");
 		}
 

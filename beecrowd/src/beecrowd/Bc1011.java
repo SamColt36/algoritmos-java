@@ -6,13 +6,14 @@ import java.util.Scanner;
 public class Bc1011 {
 
 	public static void main(String[] args) {
-		double r, v;
-		Scanner sc = new Scanner(System.in);
-		r = sc.nextDouble();
-		sc.close();
-		v = (4.0/3) * Math.PI * Math.pow(r, 3);
+		double raio, volume;
 		Locale.setDefault(Locale.US);
-		System.out.printf("VOLUME = %.3f", v);
+		Scanner sc = new Scanner(System.in);
+		raio = sc.nextDouble();
+		sc.close();
+		volume = (4.0/3) * Math.PI * Math.pow(raio, 3);
+
+		System.out.printf("VOLUME = %.3f", volume);
 	}
 
 }

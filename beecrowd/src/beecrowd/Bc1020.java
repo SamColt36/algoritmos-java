@@ -12,6 +12,8 @@ public class Bc1020 {
 		a = (idd / 365); // idade em anos
 		m = ((idd % 365) / 30); // idade em meses
 		d = ((idd % 365) % 30); // idade em dias
+		sc.close();
+		
 		System.out.println(a + " ano(s)");
 		System.out.println(m + " mes(es)");
 		System.out.println(d + " dia(s)");
