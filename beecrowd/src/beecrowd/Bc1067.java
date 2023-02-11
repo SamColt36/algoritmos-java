@@ -12,10 +12,9 @@ public class Bc1067 {
 		Scanner sc = new Scanner(System.in);
 		n = sc.nextInt();
 
-		for (int i = 1; i <= n; i=i+2) {
+		for (int i = 1; i <= n; i = i + 2) {
 			System.out.println(i);
 		}
-		
 
 		sc.close();
 

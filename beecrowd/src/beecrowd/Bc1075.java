@@ -11,12 +11,9 @@ public class Bc1075 {
 
 		for (int i = 1; i <= 10000; i++) {
 
-			if (i % n == 2) {
+			if (i % n == 2)
 				System.out.println(i);
-			}
-
 		}
 		sc.close();
 	}
-
 }

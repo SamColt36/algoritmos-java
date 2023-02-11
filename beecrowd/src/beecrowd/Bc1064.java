@@ -21,6 +21,6 @@ public class Bc1064 {
 		}
 		sc.close();
 		System.out.println(cont + " valores positivos");
-		System.out.println("media = " + (auxiliar/cont));
+		System.out.println("media = " + (auxiliar / cont));
 	}
 }

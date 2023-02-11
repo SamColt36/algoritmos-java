@@ -21,14 +21,12 @@ public class Bc1094 {
 
 			vect[i] = new Bc1094Entities(quantity, species);
 
-			if (vect[i].getType() == 'C' || vect[i].getType() == 'c') {
+			if (vect[i].getType() == 'C' || vect[i].getType() == 'c')
 				coelhos += vect[i].getNumber();
-			} else if (vect[i].getType() == 'R' || vect[i].getType() == 'r') {
+			else if (vect[i].getType() == 'R' || vect[i].getType() == 'r')
 				ratos += vect[i].getNumber();
-			} else if (vect[i].getType() == 'S' || vect[i].getType() == 's') {
+			else if (vect[i].getType() == 'S' || vect[i].getType() == 's')
 				sapos += vect[i].getNumber();
-			}
-
 		}
 
 		total = coelhos + ratos + sapos;

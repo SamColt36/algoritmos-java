@@ -16,14 +16,15 @@ public class Bc1070 {
 
 			if (n % 2 == 1) {
 				cont = cont + 2;
-				System.out.println(n+cont);
+				System.out.println(n + cont);
 			}
-			
-			if (n % 2 == 0) {
+
+			else if (n % 2 == 0) {
 				n = n + 1;
 				System.out.println(n);
 			}
 		}
+		sc.close();
 	}
 
 }

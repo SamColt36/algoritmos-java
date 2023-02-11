@@ -21,11 +21,8 @@ public class Bc1079 {
 			Double nota3 = sc.nextDouble();
 			v[j] = new Bc1079Entities(nota1, nota2, nota3);
 		}
-		for (int j = 0; j < n; j++) {
+		for (int j = 0; j < n; j++) 
 			System.out.println(String.format("%.1f", v[j].media()));
-		}
-
 		sc.close();
-
 	}
 }

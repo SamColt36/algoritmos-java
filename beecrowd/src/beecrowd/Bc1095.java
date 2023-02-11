@@ -7,10 +7,7 @@ public class Bc1095 {
 		for (int i = 1; i < 100; i = i + 3) {
 			System.out.println("I=" + i + " J=" + j);
 			j -= 5;
-			if (j == -5) {
-				break;
-			}
+			if (j == -5) break;
 		}
 	}
-
 }

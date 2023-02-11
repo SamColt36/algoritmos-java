@@ -13,18 +13,17 @@ public class Bc1066 {
 		int contPar = 0, contImpar = 0, contPositivo = 0, contNegativo = 0;
 		for (int i = 0; i < 5; i++) {
 			vect[i] = sc.nextDouble();
-			
+
 			if ((vect[i] % 2) == 0) {
 				contPar += 1;
 			} else {
 				contImpar += 1;
 			}
-			
+
 			if (vect[i] > 0) {
 				contPositivo += 1;
 			} else if (vect[i] == 0) {
-			}
-			else {
+			} else {
 				contNegativo += 1;
 			}
 		}
