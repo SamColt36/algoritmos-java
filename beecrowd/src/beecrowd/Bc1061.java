@@ -1,58 +1,67 @@
 package beecrowd;
 
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class Bc1061 {
 
 	public static void main(String[] args) {
-		int di, df, hi, mi, si, hf, mf, sf, vd, vm, vs;
-		int dias = 0, horas = 0, minutos = 0, segundos = 0;
+		Scanner input = new Scanner(System.in);
 
-		Scanner sc = new Scanner(System.in);
+		System.out.print("DIA: ");
+		int inicialDate = input.nextInt();
+		System.out.print("TIME: ");
+		String timeInicial = input.next();
 
-		System.out.println("-----CALCULADORA DE DATA-----");
-		System.out.print("--DIA INICIAL: ");
-		di = sc.nextInt();
-		System.out.print("HORA INICIAL:  ");
-		hi = sc.nextInt();
-		System.out.print("MINUTO INICIAL:  ");
-		mi = sc.nextInt();
-		System.out.print("SEGUNDO INICIAL:  ");
-		si = sc.nextInt();
+		String[] v = timeInicial.split(":");
+		int totalSecondsInicial = ConvertionToSeconds(inicialDate, Integer.valueOf(v[0]), Integer.valueOf(v[1]),
+				Integer.valueOf(v[2]));
 
-		System.out.println();
-		System.out.print("--DIA FINAL: ");
-		df = sc.nextInt();
-		System.out.print("HORA FINAL:  ");
-		hf = sc.nextInt();
-		System.out.print("MINUTO FINAL:  ");
-		mf = sc.nextInt();
-		System.out.print("SEGUNDO FINAL:  ");
-		sf = sc.nextInt();
+		System.out.print("\n" + "DIA: ");
+		int finalDate = input.nextInt();
+		System.out.print("TIME: ");
+		String timeFinal = input.next();
 
-		sc.close();
+		v = timeFinal.split(":");
+		int totalSecondsFinal = ConvertionToSeconds(finalDate, Integer.valueOf(v[0]), Integer.valueOf(v[1]),
+				Integer.valueOf(v[2]));
+		input.close();
 
-		// converter para segundos
-		int totalSegundosInicial = di * 86400 + hi * 3600 + mi * 60 + si;
-		int totalSegundosFinal = df * 86400 + hf * 3600 + mf * 60 + sf;
-		int deltaSegundos = totalSegundosFinal - totalSegundosInicial;
+		int variationSeconds = totalSecondsFinal - totalSecondsInicial;
 
-		segundos = deltaSegundos % 60;
-
-		if ((deltaSegundos / 60) > 60) {
-			minutos = ((deltaSegundos / 60) % 60);
-		}
-
-		if ((deltaSegundos / 3600) > 24) {
-			horas = (deltaSegundos / 3600) % 24;
-			dias = (deltaSegundos / 3600) / 24;
-		}
-
-		System.out.println(dias + " dia(s)");
-		System.out.println(horas + " hora(s)");
-		System.out.println(minutos + " minuto(s)");
-		System.out.println(segundos + " segundo(s)");
-
+		System.out.println(Convertion(variationSeconds));
 	}
 
+	public static Integer ConvertionToSeconds(int dia, int hora, int minuto, int segundo) {
+		int sum = 0;
+		sum += TimeUnit.DAYS.toSeconds(dia);
+		sum += TimeUnit.HOURS.toSeconds(hora);
+		sum += TimeUnit.MINUTES.toSeconds(minuto);
+		sum += segundo;
+		return sum;
+	}
+
+	public static String Convertion(int variationSeconds) {
+		int days = 0, hours = 0, minutes = 0, seconds;
+		seconds = variationSeconds % 60;
+
+		if ((variationSeconds / 60) > 60) {
+			minutes = ((variationSeconds / 60) % 60);
+		}
+
+		if ((variationSeconds / 3600) > 24) {
+			hours = (variationSeconds / 3600) % 24;
+			days = (variationSeconds / 3600) / 24;
+		}
+		StringBuilder obj = new StringBuilder();
+		obj.append("\n" + days + " dia(s)" + "\n");
+		obj.append(hours + " hora(s)" + "\n");
+		obj.append(minutes + " minuto(s)" + "\n");
+		obj.append(seconds + " segundo(s)" + "\n");
+
+		String output = obj.toString();
+		return output;
+	}
 }
+
+// Alt + Shift + Y habilita quebra de linha
