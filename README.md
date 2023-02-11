@@ -1,7 +1,7 @@
 
 
 # Bem-vindo ao repositório "BEECROWD em Java ☕"
-
+![](https://media1.giphy.com/media/x2cHgtw3b32QqnFLwN/200.webp?cid=ecf05e474dc06w57zkb7jtl38jl0ae6hrcg6zscjwp1xwqx2&rid=200.webp&ct=g)     
 Este repositório é dedicado aos amantes da programação em Java e ao site BEECROWD  💻. Aqui você encontrará diversos programas criados com o objetivo de auxiliar o estudo de **lógica de programação**.
 
 🎉 Quer se divertir e colocar suas habilidades de programação à prova? Então, essa é a sua chance!
