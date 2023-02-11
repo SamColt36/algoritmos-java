@@ -1,7 +1,7 @@
 
 
 # Bem-vindo ao repositório "BEECROWD em Java ☕"
-![](https://cdn.pixabay.com/photo/2017/06/30/03/34/gui-2457113_960_720.png)     
+![](http://apexensino.com.br/wp-content/uploads/2017/03/java-monadic-blog-post-image@2x.png)     
 Este repositório é dedicado aos amantes da programação em Java e ao site BEECROWD  💻. Aqui você encontrará diversos programas criados com o objetivo de auxiliar o estudo de **lógica de programação**.
 
 🎉 Quer se divertir e colocar suas habilidades de programação à prova? Então, essa é a sua chance!
