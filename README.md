@@ -1,7 +1,18 @@
-# 🔥🔥 OLÁ A TODOS! 
 
-## Proposta:
 
-Nesse repositório estam contidos problemas retirados do site **Beecrowd**. Aqui você encontra a solução de <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Forig00.deviantart.net%2Fb39d%2Ff%2F2015%2F217%2F5%2Fe%2Fgear_gif_by_zero_the_noob_artis-d94baao.gif&f=1&nofb=1&ipt=057462a214ba1bf5f78f6a9fce8da9a9c5a6910178bd142be30794a7356ecba6&ipo=images" img align="right" alt="drawing" style="width:300px;"/> problemas simples até um pouco mais elaborados. 
+# Bem-vindo ao repositório "BEECROWD em Java ☕"
+
+Este repositório é dedicado aos amantes da programação em Java e ao site BEECROWD  💻. Aqui você encontrará diversos programas criados com o objetivo de auxiliar o estudo de **lógica de programação**.
+
+🎉 Quer se divertir e colocar suas habilidades de programação à prova? Então, essa é a sua chance!
+
+💻 Os programas foram criados com o objetivo de exemplificar a utilização da linguagem **Java** de maneira prática, e desenvolver pequenos projetos, alguns mais simples e outros mais elaborados. Aqui você encontrará soluções criativas e eficientes que lhe ajudarão a entender que para um mesmo problemas há várias soluções. 
+
+⚙️Volta e meia estou atualizando com novos programas e também com novas formas de se fazer o mesmo problema.
+
+🔧 Porém, esses programas são apenas um ponto de partida. Fique à vontade para refazê-los e adaptá-los ao seu estilo. Quem sabe você possa criar soluções ainda mais incríveis!
+
+💡 E não se esqueça: o objetivo é se divertir e aprender, então, se divirta e bora codar 🚀!
+
 > **Lista**:   
-> A lista de exercícios foi pode ser acessada através do enlace **[clique aqui](https://www.beecrowd.com.br/judge/pt/problems/index/1)**.
+> A lista de exercícios foi pode ser acessada através do link**[clique aqui](https://www.beecrowd.com.br/judge/pt/problems/index/1)**.
