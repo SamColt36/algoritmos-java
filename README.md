@@ -15,4 +15,4 @@
 💡 E não se esqueça: o objetivo é se divertir e aprender, então, se divirta e bora codar 🚀!
 
 > **Lista**:   
-> A lista de exercícios foi pode ser acessada através do link**[clique aqui](https://www.beecrowd.com.br/judge/pt/problems/index/1)**.
+> A lista de exercícios foi pode ser acessada através do link [**clique aqui**](https://www.beecrowd.com.br/judge/pt/problems/index/1).
